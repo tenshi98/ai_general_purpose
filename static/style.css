@@ -1,0 +1,40 @@
+/* ==========================================================================
+   AI Chat Assistant — Hoja de estilos
+   Estilos extraídos del bloque <style> original de index.html.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Estilos base y específicos de la interfaz.
+   -------------------------------------------------------------------------- */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+#chat-box {
+    width: 80%;
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: auto;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* --------------------------------------------------------------------------
+   Mensajes de error generados por script.js.
+   -------------------------------------------------------------------------- */
+.error-message {
+    color: red;
+}
